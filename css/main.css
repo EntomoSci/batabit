@@ -43,7 +43,7 @@ header
 
     width: 100%;
     min-width: 320px;
-    height: 353px;
+    height: 35.3rem;
 
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 
@@ -117,8 +117,8 @@ header img
     display: inline-block;
 
     margin-left: 16px;
-    width: 12px;
-    height: 8px;
+    width: 1.2rem;
+    height: .8rem;
 
     background-image: url("../assets/icons/arrows/black-down-arrow-icon.svg");
     background-repeat: no-repeat;
