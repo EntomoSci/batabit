@@ -33,6 +33,11 @@ html
     font-family: 'DM Sans', sans-serif;
 }
 
+body
+{
+    min-width: 320px;
+}
+
 
 /* HEADER SECTION */
 
@@ -45,7 +50,6 @@ header
     text-align: center;
 
     width: 100%;
-    min-width: 320px;
     height: 35.3rem;
 
     background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
@@ -66,7 +70,6 @@ header img
     margin-top: 40px;
 
     width: 90%;
-    min-width: 288px;
     height: 138px;
 }
 
@@ -169,7 +172,6 @@ main
 .main-exchange-container__title
 {
     width: 90%;
-    min-width: 288px;
     max-width: 900px;
     text-align: center;
 }
@@ -336,6 +338,8 @@ main
     flex-direction: column;
     align-items: center;
 
+    padding-bottom: 40px;
+
     background-color: var(--warm-black);
 }
 
@@ -400,6 +404,38 @@ main
     font-weight: 700;
     line-height: 1.8rem;
     margin-bottom: 10px;
+
+    color: var(--just-white);
+}
+
+/* BITCOIN BACKGROUND IMAGE SECTION */
+
+.bitcoin-background-image-container
+{
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    height: 387px;
+
+    background-image: url("../assets/img/bitcoinbaby2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bitcoin-background-image-container span
+{
+    display: block;
+    text-align: center;
+
+    width: auto;
+    height: 2.6rem;
+    margin-top: 60px;
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
 
     color: var(--just-white);
 }
