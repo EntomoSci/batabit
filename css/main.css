@@ -25,7 +25,6 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    /* border: 1px solid red; */
 }
 
 html
@@ -193,4 +192,137 @@ main
     line-height: 1.8rem;
 
     color: #757575;
+}
+
+/* EXCHANGE GRID SECTION */
+.main-tables-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin-top: 48px;
+}
+
+.main-tables-container__title
+{
+    position: relative;
+    right: 50px;
+    
+    margin-bottom: 1.2rem;
+
+    font-size: 1.8rem;
+    font-weight: 700;
+    
+    color: #FF9536;
+}
+
+.main-tables-container__grid
+{
+    position: relative;
+    display: grid;
+    grid-template: 4 / 2;
+    grid-gap: 1px;
+    
+    width: 197px;
+}
+
+.main-tables-container__right-arrow-icon
+{
+    position: absolute;
+    top: 47%;
+    right: -40px;
+    width: 12px;
+    height: 7.41px;
+}
+
+.main-tables-container__grid span
+{
+    text-align: left;
+    font-size: 1.6rem;
+    font-weight: 500;
+
+    color: #B5B0AC;
+}
+
+.main-tables-container__grid p
+{
+    font-size: 1.4rem;
+    font-weight: normal;
+    
+    color: #757575;
+}
+
+.main-tables-container__grid img
+{
+    width: 18px;
+    height: 12px;
+}
+
+.grid-child
+{
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+
+    background-color: var(--just-white);
+}
+
+.price-area
+{
+    justify-content: space-between;
+}
+
+.main-tables-container__grid-child-1
+{
+    grid-area: 1 / 1 / 2 / 2;
+}
+.main-tables-container__grid-child-2
+{
+    grid-area: 1 / 2 / 2 / 3;
+}
+.main-tables-container__grid-child-3
+{
+    grid-area: 2 / 1 / 3 / 2;
+}
+.main-tables-container__grid-child-4
+{
+    grid-area: 2 / 2 / 3 / 3;
+}
+.main-tables-container__grid-child-5
+{
+    grid-area: 3 / 1 / 4 / 2;
+}
+.main-tables-container__grid-child-6
+{
+    grid-area: 3 / 2 / 4 / 3;
+}
+.main-tables-container__grid-child-7
+{
+    grid-area: 4 / 1 / 5 / 2;
+}
+.main-tables-container__grid-child-8
+{
+    grid-area: 4 / 2 / 5 / 3;
+}
+
+.main-tables-container__update
+{
+    width: 173px;
+    height: 31px;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: 16px;
+    
+    font-size: 1.2rem;
+    text-align: center;
+
+    background-color: var(--soft-orange);
+}
+
+.main-tables-container__update span
+{
+    font-weight: 700;
 }
