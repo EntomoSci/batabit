@@ -8,7 +8,7 @@
 
 :root
 {
-    /* Colors */
+    /* COLORS */
     --bitcoin-orange: #F7931A;
     --soft-orange: #FFE9D5;
     --secondary-blue: #1A9AF7;
@@ -195,6 +195,7 @@ main
 }
 
 /* EXCHANGE GRID SECTION */
+
 .main-tables-container
 {
     display: flex;
@@ -325,4 +326,80 @@ main
 .main-tables-container__update span
 {
     font-weight: 700;
+}
+
+/* PRODUCT SERVICES SECTION */
+
+.main-product-benefits-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: var(--warm-black);
+}
+
+.main-product-benefits-container__batabit-image
+{
+    position: relative;
+    top: -10px;
+}
+
+.main-product-benefits-container__title
+{
+    text-align: center;
+
+    width: 288px;
+    height: auto;
+    padding: 40px 0;
+}
+
+.main-product-benefits-container__title h2
+{
+    margin-bottom: 2.4rem;
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.6rem;
+
+    color: var(--just-white);
+}
+
+.main-product-benefits-container__title p,
+.service-card p
+{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    
+    color: #808080;
+}
+
+.service-card
+{
+    width: 288px;
+    height: auto;
+    padding: 20px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    
+    background-color: var(--black);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.service-card__icon
+{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.service-card__title
+{
+    display: inline-block;
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 1.8rem;
+    margin-bottom: 10px;
+
+    color: var(--just-white);
 }
