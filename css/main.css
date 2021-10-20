@@ -35,7 +35,10 @@ html
 
 body
 {
+    width: 100%;
     min-width: 320px;
+
+    background-color: blue;
 }
 
 
@@ -138,6 +141,7 @@ header img
 main
 {
     width: 100%;
+    min-width: 320px;
     height: auto;
     
     background-color: var(--off-white);
@@ -452,13 +456,15 @@ main
     padding-bottom: 64px;
 
     background-color: #E5E5E5;
+
+    /* overflow: hidden; */
 }
 
 .plans-container__title
 {
     text-align: center;
     
-    width: 288px;
+    width: 90%;
     margin-bottom: 5rem;
 }
 
@@ -488,28 +494,51 @@ main
     display: flex;
     justify-content: space-between;
 
+    width: 100%;
+    max-width: 700px;
     padding-top: 20px;
     padding-bottom: 20px;
-
-    overflow: hidden;
+    margin-left: 110px;
+    margin-right: 110px;
+    
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
 
 .plan-card
 {
+    min-width: 190px;
+    max-width: 210px;
+    padding: 20px;
     border-radius: 8px;
-
+    
+    background-color: var(--just-white);
     box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+
+    scroll-snap-align: center;
+}
+
+.plan-cards-section__left
+{
+    margin-right: 10px;
+    margin-left: 110px;
+}
+
+.plan-cards-section__center
+{
+    margin: 0 10px;
+}
+
+.plan-cards-section__right
+{
+    margin-left: 10px;
+    margin-right: 110px;
 }
 
 .plan-cards-section__left,
 .plan-cards-section__center,
 .plan-cards-section__right
-{
-    width: 190px;
-    background-color: var(--just-white);
-}
-
-.plan-cards-section__center
 {
     display: flex;
     flex-direction: column;
@@ -518,13 +547,16 @@ main
     text-align: center;
 
     height: auto;
-    padding: 0 20px;
-    margin: 0 10px;
+}
+
+.plan-cards-section__center
+{
+    position: relative;
 }
 
 .plan-cards-section__center .recommended-plan
 {
-    position: relative;
+    position: absolute;
     top: -15px;
     text-align: center;
 
@@ -538,8 +570,12 @@ main
     background-color: var(--bitcoin-orange);
 }
 
-.plan-cards-section__center .plan-title
+.plan-cards-section__left .plan-title,
+.plan-cards-section__center .plan-title,
+.plan-cards-section__right .plan-title
 {
+    margin-top: 15px;
+
     font-size: 1.4rem;
     font-weight: 500;
     line-height: 1.8rem;
@@ -547,7 +583,9 @@ main
     color: #000;
 }
 
-.plan-cards-section__center .plan-price
+.plan-cards-section__left .plan-price,
+.plan-cards-section__center .plan-price,
+.plan-cards-section__right .plan-price
 {
     position: relative;
 
@@ -555,7 +593,9 @@ main
     margin-bottom: 5px;
 }
 
-.plan-cards-section__center .plan-price .dollar-sign
+.plan-cards-section__left .plan-price .dollar-sign,
+.plan-cards-section__center .plan-price .dollar-sign,
+.plan-cards-section__right .plan-price .dollar-sign
 {
     position: absolute;
     top: 1rem;
@@ -566,7 +606,9 @@ main
     color: #363636;
 }
 
-.plan-cards-section__center .plan-price p
+.plan-cards-section__left .plan-price p,
+.plan-cards-section__center .plan-price p,
+.plan-cards-section__right .plan-price p
 {
     font-size: 5.2rem;
     font-weight: 700;
@@ -576,9 +618,9 @@ main
     color: #000;
 }
 
-
-
-.plan-cards-section__center .saving-info
+.plan-cards-section__left .saving-info,
+.plan-cards-section__center .saving-info,
+.plan-cards-section__right .saving-info
 {
     font-size: 1.2rem;
     font-weight: 500;
@@ -587,7 +629,9 @@ main
     color: #757575;
 }
 
-.plan-cards-section__center .plan-button
+.plan-cards-section__left .plan-button,
+.plan-cards-section__center .plan-button,
+.plan-cards-section__right .plan-button
 {
     display: flex;
     justify-content: center;
@@ -599,7 +643,7 @@ main
     border: 2px solid var(--bitcoin-orange);
     border-radius: 4px;
     margin-top: 15px;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
 
     font-size: 1.4rem;
     font-weight: 700;
@@ -620,6 +664,8 @@ main
     background-position: center;
 }
 
+/* HOLD CARD ARROW ICONS */
+/* 
 .plan-cards-section__left,
 .plan-cards-section__right
 {
@@ -655,4 +701,4 @@ main
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
+} */
