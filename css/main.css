@@ -37,8 +37,6 @@ body
 {
     width: 100%;
     min-width: 320px;
-
-    background-color: blue;
 }
 
 
@@ -141,7 +139,6 @@ header img
 main
 {
     width: 100%;
-    min-width: 320px;
     height: auto;
     
     background-color: var(--off-white);
@@ -702,3 +699,68 @@ main
     background-position: center;
     background-size: cover;
 } */
+
+/* FOOTER SECTION */
+footer
+{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+    height: auto;
+    padding: 40px 65px;
+
+    background-color: var(--bitcoin-orange);
+}
+
+.footer__links-container
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+
+    height: 7rem;
+
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+
+}
+
+.footer__links-container a
+{
+    text-decoration: none;
+
+}
+
+.footer__links-container p
+{
+
+    color: var(--just-white);
+}
+
+.footer__batabit-logo-container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer__batabit-logo-container img
+{
+    width: 4.57rem;
+    height: 2.4rem;
+    margin-bottom: .8rem;
+}
+
+.footer__batabit-logo-container p
+{
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    text-align: center;
+
+    color: var(--soft-orange);
+}
