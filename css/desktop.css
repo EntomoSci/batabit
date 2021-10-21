@@ -1,0 +1,436 @@
+/* -------------- INCREMENT MOBILE SIZE PROPERTIES IN 25% -------------- */
+
+/* -------------------------- HEADER SECTION -------------------------- */
+
+header
+{
+    height: 52.95rem;
+}
+
+header img
+{
+    width: 225px;
+    height: 36px;
+}
+
+.header__title-container
+{
+    margin-top: 60px;
+    height: 207px;
+}
+
+.header__title-container h1
+{
+    font-size: 3.6rem;
+    line-height: 3.9rem;
+}
+
+.header__title-container p
+{
+    margin-top: 36px;
+
+    font-size: 2.1rem;
+    line-height: 2.7rem;
+}
+
+.header__button
+{
+    left: calc(50% - 172.5px);
+    bottom: -37.5px;
+
+    padding: 18px 24px;
+    width: 345px;
+    height: 72px;
+    
+    font-size: 2.1rem;
+    border-radius: 6px;
+    box-shadow: 0px 6px 12px rgba(89, 73, 30, 0.16);
+}
+
+.header__button span
+{
+    margin-left: 24px;
+    width: 1.8rem;
+    height: 1.2rem;
+}
+
+
+/* --------------------------- MAIN SECTION --------------------------- */
+
+.main-exchange-container
+{
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+.main-exchange-container__background-image
+{
+    width: 292.5px;
+    height: 292.5px;
+    margin-bottom: 60px;
+}
+
+.main-exchange-container__title h2
+{
+    margin-bottom: 3.6rem;
+
+    font-size: 3.6rem;
+    line-height: 2.6rem;
+}
+
+.main-exchange-container__title p
+{
+    font-size: 2.1rem;
+    line-height: 2.7rem;
+}
+
+
+/* ----------------------- EXCHANGE GRID SECTION ----------------------- */
+
+.main-tables-container
+{
+    max-width: 1290px;
+    margin-top: 72px;
+    padding-bottom: 30px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.coin-grid__title,
+.commission-grid__title
+{
+    margin-bottom: 1.8rem;
+
+    font-size: 2.7rem;
+}
+
+.grid-child
+{
+    padding: 15px;
+}
+
+
+/* ----------------- COIN AND COMMISSION GRID SECTION ----------------- */
+
+.main-tables-container__coin-grid,
+.main-tables-container__commission-grid
+{
+    grid-gap: 1.5px;
+    
+    width: 300px;
+    min-width: 330px;
+    max-width: 390px;
+}
+
+.main-tables-container__coin-grid
+{
+    margin-right: 15px;
+}
+
+.main-tables-container__commission-grid
+{
+    margin-left: 15px;
+}
+
+.coin-grid__child-1,
+.commission-grid__child-1
+{
+    border-top-left-radius: 15px;
+}
+.coin-grid__child-2,
+.commission-grid__child-2
+{
+    border-top-right-radius: 15px;
+}
+.coin-grid__child-7,
+.commission-grid__child-7
+{
+    border-bottom-left-radius: 15px;
+}
+.coin-grid__child-8,
+.commission-grid__child-8
+{
+    border-bottom-right-radius: 15px;
+}
+
+.coin-name
+{
+    font-size: 2.4rem;
+}
+
+.main-tables-container__coin-grid p,
+.main-tables-container__commission-grid p
+{
+    font-size: 2.1rem;
+}
+
+.main-tables-container__coin-grid img,
+.main-tables-container__commission-grid img
+{
+    width: 27px;
+    height: 18px;
+}
+
+.coin-grid__update,
+.commission-grid__update
+{
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 24px;
+    
+    font-size: 1.8rem;
+}
+
+
+/* -------------------- PRODUCT SERVICES SECTION -------------------- */
+
+.main-product-benefits-container
+{
+    padding-bottom: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main-product-benefits-container__batabit-image
+{
+    top: -15px;
+    left: calc(50% - 30px);
+
+    width: 60px;
+    height: 36px;
+}
+
+.main-product-benefits-container__title
+{
+    max-width: 750px;
+    padding-top: 90px;
+    padding-bottom: 60px;
+}
+
+.main-product-benefits-container__title h2
+{
+    margin-bottom: 3.6rem;
+
+    font-size: 3.6rem;
+    line-height: 3.9rem;
+}
+
+.main-product-benefits-container__title p,
+.service-card p
+{
+    font-size: 2.1rem;
+    line-height: 2.7rem;
+}
+
+.service-cards-container
+{
+    max-width: 1320px;
+}
+
+.service-card
+{
+    flex-basis: 420px;
+    max-width: 750px;
+    min-height: 225px;
+    padding: 30px;
+    margin: 12px;
+    border-radius: 6px;
+    
+    background-color: var(--black);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.16);
+}
+
+.service-card__icon
+{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.service-card__title
+{
+    font-size: 2.7rem;
+    line-height: 2.7rem;
+    margin-bottom: 15px;
+}
+
+
+/* ----------------- BITCOIN BACKGROUND IMAGE SECTION ----------------- */
+
+.bitcoin-background-image-container
+{
+    height: 580.5px;
+}
+
+.bitcoin-background-image-container span
+{
+    height: 3.9rem;
+    margin-top: 90px;
+
+    font-size: 3.6rem;
+    line-height: 3.9rem;
+}
+
+
+/* -------------------------- PLANS SECTION -------------------------- */
+
+.plans-container
+{
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.plans-container__title
+{
+    margin-bottom: 7.5rem;
+}
+
+.plans-container__title h2
+{
+    margin-bottom: 36px;
+
+    font-size: 3.6rem;
+    line-height: 3.9rem;
+}
+
+.plans-container__title p
+{
+
+    font-size: 2.1rem;
+    line-height: 2.7rem;
+}
+
+.plan-cards-section
+{
+    padding: 30px 0;
+    margin: 0 30px;
+    padding-left: 165px;
+    padding-right: 165px;
+}
+
+.plan-card
+{
+    min-width: 300px;
+    max-width: 330px;
+    padding: 30px;
+    border-radius: 12px;
+
+    box-shadow: 0px 6px 12px rgba(89, 73, 30, 0.16);
+}
+
+.plan-cards-section__left
+{
+    margin-right: 15px;
+}
+
+.plan-cards-section__center
+{
+    margin: 0 15px;
+}
+
+.plan-cards-section__right
+{
+    margin-left: 15px;
+}
+
+.plan-cards-section__center .recommended-plan
+{
+    top: -22.5px;
+
+    padding: 12px;
+    border-radius: 12px;
+
+    font-size: 1.8rem;
+}
+
+.plan-cards-section__left .plan-title,
+.plan-cards-section__center .plan-title,
+.plan-cards-section__right .plan-title
+{
+    margin-top: 22.5px;
+
+    font-size: 2.1rem;
+    line-height: 2.7rem;
+}
+
+.plan-cards-section__left .plan-price,
+.plan-cards-section__center .plan-price,
+.plan-cards-section__right .plan-price
+{
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+
+.plan-cards-section__left .plan-price .dollar-sign,
+.plan-cards-section__center .plan-price .dollar-sign,
+.plan-cards-section__right .plan-price .dollar-sign
+{
+    top: 1.5rem;
+    left: -1.5rem;
+    font-size: 1.8rem;
+}
+
+.plan-cards-section__left .plan-price p,
+.plan-cards-section__center .plan-price p,
+.plan-cards-section__right .plan-price p
+{
+    font-size: 7.8rem;
+    line-height: 9.45rem;
+    letter-spacing: -0.75rem;
+}
+
+.plan-cards-section__left .saving-info,
+.plan-cards-section__center .saving-info,
+.plan-cards-section__right .saving-info
+{
+    font-size: 1.8rem;
+    line-height: 2.18rem;
+}
+
+.plan-cards-section__left .plan-button,
+.plan-cards-section__center .plan-button,
+.plan-cards-section__right .plan-button
+{
+    padding: 22.5px;
+    border: 3px solid var(--bitcoin-orange);
+    border-radius: 6px;
+    margin-top: 22.5px;
+
+    font-size: 2.1rem;
+}
+
+.button-arrow-icon
+{
+    left: 12px;
+    width: 36px;
+    height: 36px;
+}
+
+
+/* -------------------------- FOOTER SECTION -------------------------- */
+
+footer
+{
+    padding: 60px 97.5px;
+}
+
+.footer__links-container ul
+{
+    height: 10.5rem;
+
+    font-size: 2.4rem;
+    line-height: 2.7rem;
+}
+
+.footer__batabit-logo-container img
+{
+    width: 6.86rem;
+    height: 3.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.footer__batabit-logo-container p
+{
+    font-size: 1.2rem;
+    line-height: 2.7rem;
+}
