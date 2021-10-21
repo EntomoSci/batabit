@@ -9,9 +9,9 @@
 :root
 {
     /* COLORS */
-    --bitcoin-orange: #F7931A;
+    --bitcoin-orange: #F18C10;
     --soft-orange: #FFE9D5;
-    --secondary-blue: #1A9AF7;
+    --secondary-blue: #1080D1;
     --soft-blue: #E7F5FF;
     --warm-black: #201E1C;
     --black: #282623;
@@ -193,7 +193,7 @@ main
     font-weight: 500;
     line-height: 1.8rem;
 
-    color: #757575;
+    color: #606060;
 }
 
 
@@ -235,7 +235,7 @@ main
 
 .coin-grid__title
 {
-    color: #FF9536;
+    color: var(--bitcoin-orange);
 }
 
 .commission-grid__title
@@ -267,7 +267,7 @@ main
     position: relative;
     display: grid;
     grid-template: repeat(6, 1fr) / 2;
-    grid-gap: 1px;
+    grid-gap: 2px;
     
     width: 200px;
     min-width: 220px;
@@ -341,7 +341,7 @@ main
     font-size: 1.6rem;
     font-weight: 500;
 
-    color: #B5B0AC;
+    color: #93908E;
 }
 
 .main-tables-container__coin-grid p,
@@ -350,7 +350,7 @@ main
     font-size: 1.4rem;
     font-weight: normal;
     
-    color: #757575;
+    color: #606060;
 }
 
 .main-tables-container__commission-grid p
@@ -391,7 +391,7 @@ main
 {
     grid-area: 6 / 1 / 7 / span 2;
     justify-self: center;
-    background-color: #E7F5FF;
+    background-color: #DCF0FF;
 }
 
 .coin-grid__update span,
@@ -456,7 +456,7 @@ main
     font-weight: 500;
     line-height: 1.8rem;
     
-    color: #808080;
+    color: #b0b0b0;
 }
 
 .service-cards-container
@@ -577,7 +577,7 @@ main
     font-weight: 500;
     line-height: 1.8rem;
 
-    color: #757575;
+    color: #606060;
 }
 
 .plan-cards-section
@@ -713,7 +713,7 @@ main
     font-weight: 500;
     line-height: 1.452rem;
 
-    color: #757575;
+    color: #606060;
 }
 
 .plan-cards-section__left .plan-button,
@@ -762,6 +762,8 @@ footer
     height: auto;
     padding: 40px 65px;
 
+    letter-spacing: .05rem;
+
     background-color: var(--bitcoin-orange);
 }
 
@@ -807,10 +809,10 @@ footer
 
 .footer__batabit-logo-container p
 {
-    font-size: .8rem;
+    font-size: 1.3rem;
     font-weight: 500;
     line-height: 1.8rem;
     text-align: center;
 
-    color: var(--soft-orange);
+    color: var(--just-white);
 }
