@@ -258,6 +258,8 @@ header img
 .bitcoin-background-image-container
 {
     height: 774px;
+
+    background-image: url("../assets/img/bitcoinbaby2x.jpg");
 }
 
 .bitcoin-background-image-container span
