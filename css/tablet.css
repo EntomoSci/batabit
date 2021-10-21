@@ -1,0 +1,16 @@
+.plan-cards-section
+{
+    justify-content: center;
+
+    padding-left: 0;
+    padding-right: 0;
+
+    overflow-x: none;
+    /* overscroll-behavior-x: none;
+    scroll-snap-type: none; */
+}
+
+.plan-card
+{
+    scroll-snap-align: none;
+}

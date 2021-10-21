@@ -40,7 +40,7 @@ body
 }
 
 
-/* -------------------- HEADER SECTION -------------------- */
+/* -------------------------- HEADER SECTION -------------------------- */
 
 header
 {
@@ -134,7 +134,7 @@ header img
 }
 
 
-/* -------------------- MAIN SECTION -------------------- */
+/* --------------------------- MAIN SECTION --------------------------- */
 
 main
 {
@@ -197,7 +197,7 @@ main
 }
 
 
-/* -------------------- EXCHANGE GRID SECTION -------------------- */
+/* ----------------------- EXCHANGE GRID SECTION ----------------------- */
 
 .main-tables-container
 {
@@ -205,10 +205,12 @@ main
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    max-width: 800px;
+    max-width: 860px;
     height: auto;
     margin-top: 48px;
     padding-bottom: 20px;
+    padding-left: 110px;
+    padding-right: 110px;
 
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -257,7 +259,7 @@ main
 }
 
 
-/* --------------- COIN AND commission GRID SECTION --------------- */
+/* ----------------- COIN AND commission GRID SECTION ----------------- */
 
 .main-tables-container__coin-grid,
 .main-tables-container__commission-grid
@@ -274,14 +276,14 @@ main
 
 .main-tables-container__coin-grid
 {
-    margin-left: 60px;
-    margin-right: 40px;
+    margin-right: 10px;
+    /* margin-left: 10px; */
 }
 
 .main-tables-container__commission-grid
 {
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 10px;
+    /* margin-right: 60px; */
 }
 
 .coin-grid__title,
@@ -333,27 +335,6 @@ main
 {
     grid-area: 5 / 2 / 6 / 3;
     border-bottom-right-radius: 10px;
-}
-
-.coin-grid__right-arrow-icon,
-.commission-grid__right-arrow-icon
-{
-    position: absolute;
-    width: 12px;
-    height: 7.41px;
-}
-
-.coin-grid__right-arrow-icon
-{
-    top: 47%;
-    right: -30px;
-}
-
-.commission-grid__right-arrow-icon
-{
-    top: 47%;
-    left: -30px;
-    transform: rotate(180deg);
 }
 
 .coin-name
@@ -426,26 +407,34 @@ main
 
 .main-product-benefits-container
 {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 
     padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
 
     background-color: var(--warm-black);
 }
 
 .main-product-benefits-container__batabit-image
 {
-    position: relative;
+    position: absolute;
     top: -10px;
+    left: calc(50% - 20px);
+
+    width: 40px;
+    height: 24px;
 }
 
 .main-product-benefits-container__title
 {
     text-align: center;
 
-    width: 288px;
+    max-width: 500px;
     height: auto;
     padding: 40px 0;
 }
@@ -471,12 +460,24 @@ main
     color: #808080;
 }
 
+.service-cards-container
+{
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+
+    max-width: 880px;
+}
+
 .service-card
 {
-    width: 288px;
+    flex-basis: 280px;
+    flex-grow: 1;
+    max-width: 500px;
     height: auto;
+    min-height: 150px;
     padding: 20px;
-    margin-bottom: 16px;
+    margin: 8px;
     border-radius: 4px;
     
     background-color: var(--black);
@@ -501,7 +502,7 @@ main
 }
 
 
-/* --------------- BITCOIN BACKGROUND IMAGE SECTION --------------- */
+/* ----------------- BITCOIN BACKGROUND IMAGE SECTION ----------------- */
 
 .bitcoin-background-image-container
 {
@@ -534,7 +535,7 @@ main
 }
 
 
-/* -------------------- PLANS SECTION -------------------- */
+/* -------------------------- PLANS SECTION -------------------------- */
 
 .plans-container
 {
@@ -546,6 +547,7 @@ main
     padding-bottom: 64px;
 
     background-color: #E5E5E5;
+    scroll-behavior: smooth;
 }
 
 .plans-container__title
@@ -580,14 +582,12 @@ main
 .plan-cards-section
 {
     display: flex;
-    justify-content: space-between;
 
     width: 100%;
-    max-width: 700px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin-left: 110px;
-    margin-right: 110px;
+    padding: 20px 0;
+    margin: 0 20px;
+    padding-left: 110px;
+    padding-right: 110px;
     
     overflow-x: scroll;
     overscroll-behavior-x: contain;
@@ -596,8 +596,8 @@ main
 
 .plan-card
 {
-    min-width: 190px;
-    max-width: 210px;
+    min-width: 200px;
+    max-width: 220px;
     padding: 20px;
     border-radius: 8px;
     
@@ -610,7 +610,6 @@ main
 .plan-cards-section__left
 {
     margin-right: 10px;
-    margin-left: 110px;
 }
 
 .plan-cards-section__center
@@ -621,7 +620,6 @@ main
 .plan-cards-section__right
 {
     margin-left: 10px;
-    margin-right: 110px;
 }
 
 .plan-cards-section__left,
@@ -752,7 +750,7 @@ main
 }
 
 
-/* -------------------- FOOTER SECTION -------------------- */
+/* -------------------------- FOOTER SECTION -------------------------- */
 
 footer
 {
